@@ -21,7 +21,7 @@ plugins=(
 At this point you should already see a different prompt and everything should be set with Zsh now lets have some fun and personalize more your prompt.
 Double check what theme are you using on Zsh in my case I'm using `ZSH_THEME="robbyrussell"`, you can check it under the `nano ~/.zshrc` just look for the <b>ZSH_THEME</b> line.
 Now you know yout theme you can get to the theme source by editing it with the command `nano ~/.oh-my-zsh/themes/robbyrussell.zsh-theme`
-Notice the themes are hosted under `~/.oh-my-zsh/themes/``
+Notice the themes are hosted under `~/.oh-my-zsh/themes/`
 
 Once your theme opens up on nano you can play with the prompt configuration, in my case I'm using the following:
 `PROMPT="%(?:%{$fg_bold[grey]%}$(random_emoji faces) % ⌘:%{$fg_bold[red]%}$emoji[pouting_face] % ⌘ )"`
@@ -30,4 +30,4 @@ this will should your pompt with emojis.
 For more emoji reference check out the documentation under the Oh-My-Zsh repository
 https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/emoji
 
-And after you configured it run 'source ~/.zhrc' your emoji should show up on the prompt
+And after you configured it run `source ~/.zhrc` your emoji should show up on the prompt
