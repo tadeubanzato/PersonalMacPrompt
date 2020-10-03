@@ -1,5 +1,6 @@
 # PersonalMacPrompt
- How to personalize the mac prompt on Terminal
+ How to personalize the mac prompt on Terminal, please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
+ I use an excelent terminal done by the Hyper team, you can download it here: https://hyper.is/
 
 
  # Basic Package Needed
