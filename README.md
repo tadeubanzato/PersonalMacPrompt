@@ -1,5 +1,6 @@
-# PersonalMacPrompt
- How to personalize the mac prompt on Terminal, please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
+# Personalize Mac Terminal Prompt
+ How to personalize the mac prompt on Terminal.
+ Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
  I use an excelent terminal done by the Hyper team, you can download it here: https://hyper.is/
 
 
@@ -9,11 +10,9 @@
  2. After that you can install ZSH as default prompt: 'brew install zsh'
  3. Install Oh-My-Zsh runing the script 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
  4. Edit the ZSH source either on NANO 'nano ~/.zshrc' or you can open it on the text editor with the command 'open ~/.zshrc' and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
- ```
-plugins=(
+ ```plugins=(
   emoji
 )
-
  ```
  Make sure to always restart the prompt with 'source ~/.zhrc'
 
