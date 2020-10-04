@@ -1,7 +1,9 @@
 # Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="40" height="40">
 How to personalize the mac prompt on Terminal.
 Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
-I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
+I use an excellent terminal done by the Hyper team, you can download it here: <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/download.svg" width="15" height="15"> https://hyper.is/
+
+
 
 ![Bower](https://img.shields.io/bower/l/bootstrap)
 
