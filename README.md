@@ -19,7 +19,7 @@ Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) runing
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 ### Lets Edit some code
-<img src="fa-crown.svg" width="50" height="50">
+<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="50" height="50">
 <i class="fab fa-apple"></i>
 
 
