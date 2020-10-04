@@ -5,11 +5,14 @@
 
 
 # Basic Package Needed
-1. If you do not have Hombrew yet installed just follow the steps here: https://brew.sh/
-Os simply run the script on terminal `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-2. After that you can install ZSH as default prompt: `brew install zsh`
-3. Install Oh-My-Zsh runing the script `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-4. Edit the ZSH source either on NANO `nano ~/.zshrc` or you can open it on the text editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
+If you do not have Homebrew :beer: yet installed just follow the steps here: https://brew.sh/
+Or simply run the script on terminal
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+After that you can install ZSH as default prompt: `brew install zsh`
+Install Oh-My-Zsh runing the script `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+Edit the ZSH source either on NANO `nano ~/.zshrc` or you can open it on the text editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
 ```
 plugins=(
 emoji
