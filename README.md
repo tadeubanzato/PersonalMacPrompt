@@ -4,15 +4,22 @@
  I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
 
 
-# Basic Package Needed
+### Basic Package Needed
 If you do not have Homebrew :beer: yet installed just follow the steps here: https://brew.sh/
 Or simply run the script on terminal
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-After that you can install ZSH as default prompt: `brew install zsh`
-Install Oh-My-Zsh runing the script `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-Edit the ZSH source either on NANO `nano ~/.zshrc` or you can open it on the text editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
+After installing Homebrew you can install Zsh as default prompt runing
+```
+brew install zsh
+```
+Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) runing the script
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+### Lets Edit some code <img src="fa-crown.svg" width="50" height="50">
+First you will need to install the Zsh source either using  `nano ~/.zshrc` or you can open it on the Mac Text Editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
 ```
 plugins=(
 emoji
