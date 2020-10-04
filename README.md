@@ -18,7 +18,11 @@ Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) runing
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-### Lets Edit some code <img src="fa-crown.svg" width="50" height="50">
+### Lets Edit some code
+<img src="fa-crown.svg" width="50" height="50">
+<i class="fab fa-apple"></i>
+
+
 First you will need to install the Zsh source either using  `nano ~/.zshrc` or you can open it on the Mac Text Editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
 ```
 plugins=(
