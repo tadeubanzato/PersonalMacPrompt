@@ -72,6 +72,14 @@ Code Detail
 `(random_emoji faces)` will randomize the Face Emoji family and will show a different Emoji every time I open terminal.
 `%{$fg_bold[red]%}$emoji[pouting_face] % ⌘` is shown when a code is wrongly typed but in my case to add a little more Atitude to my PROMPT
 
+Graphic example
+`%{$fg_bold[red]%}$emoji[pouting_face] % ⌘`
+<img src="https://github.com/tadeubanzato/PersonalMacPrompt/blob/main/images/randomMoji.png">
+
+`%{$fg_bold[red]%}$emoji[pouting_face] %`
+<img src="https://github.com/tadeubanzato/PersonalMacPrompt/blob/main/images/angryMoji.png">
+
+
 
 For more emoji reference check out the documentation under the Oh-My-Zsh repository
 https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/emoji
