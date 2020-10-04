@@ -1,8 +1,9 @@
-# Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="50" height="50">
- How to personalize the mac prompt on Terminal.
- Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
- I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
-![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+# Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="40" height="40">
+How to personalize the mac prompt on Terminal.
+Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
+I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
+
+/apm/l/:packageName
 
 ### Basic Package Needed
 If you do not have Homebrew :beer: yet installed just follow the steps here: https://brew.sh/
