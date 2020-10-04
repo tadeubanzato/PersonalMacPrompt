@@ -53,7 +53,7 @@ At this point you should already see a different prompt and everything should be
 <b>Lets have some fun and personalize more your prompt.</b>
 Double check what theme are you using on Zsh with the command prompt `nano ~/.zshrc`
 In my example case I'm using `ZSH_THEME="robbyrussell"`,
-> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/search.svg" width="10" height="10"> Just look for the <b>ZSH_THEME</b> line.
+> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/search.svg" width="12" height="12"> Just look for the <b>ZSH_THEME</b> line.
 
 Now you know your theme you can edit your theme code to customize the prompt line, the installed theme list can be found here `~/.oh-my-zsh/themes/`
 If you type `ls` you will list all themes installed on Zsh.
@@ -64,12 +64,13 @@ nano ~/.oh-my-zsh/themes/robbyrussell.zsh-theme
 ```
 > Notice the themes are hosted under `~/.oh-my-zsh/themes/`
 
-https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/search.svg
-
 Once your theme opens up on nano you can play with the prompt configuration, in my case I'm using the following:
 ```
 PROMPT="%(?:%{$fg_bold[grey]%}$(random_emoji faces) % ⌘:%{$fg_bold[red]%}$emoji[pouting_face] % ⌘ )"
 ```
+Code Detail
+`(random_emoji faces)` will randomize the Face Emoji family and will show a different Emoji every time I open terminal.
+`%{$fg_bold[red]%}$emoji[pouting_face] % ⌘` is shown when a code is wrongly typed but in my case to add a little more Atitude to my PROMPT
 
 
 For more emoji reference check out the documentation under the Oh-My-Zsh repository
