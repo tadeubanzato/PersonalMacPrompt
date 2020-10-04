@@ -10,11 +10,11 @@ Or simply run the script on terminal
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-After installing Homebrew you can install Zsh as default prompt runing
+After installing Homebrew you can install Zsh as default prompt running
 ```
 brew install zsh
 ```
-Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) runing the script
+Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) running the script
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
@@ -40,7 +40,7 @@ Now, to make sure the plugin is loaded try this command
 ```
 echo $emoji[mouse_face]
 ```
-and see this emoji :mouse:
+> If all is fine you should see this emoji :mouse:
 
 ### Now lets Personalize it
 At this point you should already see a different prompt and everything should be set with Zsh.
