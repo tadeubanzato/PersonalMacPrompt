@@ -17,10 +17,17 @@ plugins=(
  ```
  Make sure to always restart the prompt with `source ~/.zhrc`
 
-# Now lets Personalize it
-At this point you should already see a different prompt and everything should be set with Zsh now lets have some fun and personalize more your prompt.
-Double check what theme are you using on Zsh in my case I'm using `ZSH_THEME="robbyrussell"`, you can check it under the `nano ~/.zshrc` just look for the <b>ZSH_THEME</b> line.
-Now you know yout theme you can get to the theme source by editing it with the command `nano ~/.oh-my-zsh/themes/robbyrussell.zsh-theme`
+### Now lets Personalize it
+At this point you should already see a different prompt and everything should be set with Zsh.
+
+<b>Lets have some fun and personalize more your prompt.</b>
+Double check what theme are you using on Zsh with the command prompt `nano ~/.zshrc`
+In my case I'm using `ZSH_THEME="robbyrussell"`, just look for the <b>ZSH_THEME</b> line.
+
+Now you know your theme you can edit your theme code to customize the prompt line, the installed theme list can be found here `~/.oh-my-zsh/themes/`
+If you type `ls` you will list all themes installed on Zsh.
+
+To edit the theme just use the command `nano ~/.oh-my-zsh/themes/robbyrussell.zsh-theme`
 Notice the themes are hosted under `~/.oh-my-zsh/themes/`
 
 Once your theme opens up on nano you can play with the prompt configuration, in my case I'm using the following:
