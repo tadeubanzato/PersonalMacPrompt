@@ -1,8 +1,8 @@
-# Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="30" height="30">
+# Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="50" height="50">
  How to personalize the mac prompt on Terminal.
  Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
  I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
-
+![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
 
 ### Basic Package Needed
 If you do not have Homebrew :beer: yet installed just follow the steps here: https://brew.sh/
@@ -20,14 +20,27 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 ### Lets Edit some code
 
-First you will need to install the Zsh source either using  `nano ~/.zshrc` or you can open it on the Mac Text Editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
+First you will need to install the Zsh source either using  
+```
+nano ~/.zshrc
+```
+Or you can open it on the Mac Text Editor with the command
+```
+open ~/.zshrc
+```
+
+If you do not have this able on the Zsh source you can add it and add the plugins as bellow commented
 ```
 plugins=(
-emoji
+emoji #start the Emoji Plugin for Oh-My-Zsh
 )
- ```
- Make sure to always restart the prompt with `source ~/.zhrc`
- After doing this you should be able to type `echo $emoji[mouse_face]` and see this emoji :mouse:
+```
+After saving the file type `source ~/.zhrc` on the command line to restart Zsh prompt.
+Now, to make sure the plugin is loaded try this command
+```
+echo $emoji[mouse_face]
+```
+and see this emoji :mouse:
 
 ### Now lets Personalize it
 At this point you should already see a different prompt and everything should be set with Zsh.
