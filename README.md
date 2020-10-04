@@ -16,6 +16,7 @@ plugins=(
 )
  ```
  Make sure to always restart the prompt with `source ~/.zhrc`
+ After doing this you should be able to type `echo $emoji[mouse_face]` and see this emoji :mouse:
 
 ### Now lets Personalize it
 At this point you should already see a different prompt and everything should be set with Zsh.
@@ -32,7 +33,8 @@ Notice the themes are hosted under `~/.oh-my-zsh/themes/`
 
 Once your theme opens up on nano you can play with the prompt configuration, in my case I'm using the following:
 `PROMPT="%(?:%{$fg_bold[grey]%}$(random_emoji faces) % ⌘:%{$fg_bold[red]%}$emoji[pouting_face] % ⌘ )"`
-this will should your pompt with emojis.
+
+
 
 For more emoji reference check out the documentation under the Oh-My-Zsh repository
 https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/emoji
