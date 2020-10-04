@@ -1,4 +1,4 @@
-# Personalize Mac Terminal Prompt
+# Personalize Mac Terminal Prompt <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="30" height="30">
  How to personalize the mac prompt on Terminal.
  Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
  I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
@@ -19,9 +19,6 @@ Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) runing
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 ### Lets Edit some code
-<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/apple.svg" width="50" height="50">
-<i class="fab fa-apple"></i>
-
 
 First you will need to install the Zsh source either using  `nano ~/.zshrc` or you can open it on the Mac Text Editor with the command `open ~/.zshrc` and work there and add the plugins to be started, in the emoji plugin case you need to add the following lines of code
 ```
