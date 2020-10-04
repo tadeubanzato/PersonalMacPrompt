@@ -3,7 +3,7 @@ How to personalize the mac prompt on Terminal.
 Please notice you will need to update your terminal as the default Mac Terminal is not the best in the market.
 I use an excellent terminal done by the Hyper team, you can download it here: https://hyper.is/
 
-/apm/l/:packageName
+![Bower](https://img.shields.io/bower/l/bootstrap)
 
 ### Basic Package Needed
 If you do not have Homebrew :beer: yet installed just follow the steps here: https://brew.sh/
@@ -15,7 +15,7 @@ After installing Homebrew you can install Zsh as default prompt running
 ```
 brew install zsh
 ```
-Now that you have Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) running the script
+At this point your Prompt should be already changed with Zsh it is time to install Oh-My-Zsh (https://ohmyz.sh/) running the script
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
