@@ -53,7 +53,7 @@ At this point you should already see a different prompt and everything should be
 <b>Lets have some fun and personalize more your prompt.</b>
 Double check what theme are you using on Zsh with the command prompt `nano ~/.zshrc`
 In my example case I'm using `ZSH_THEME="robbyrussell"`,
-> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/download.svg" width="7" height="7"> Just look for the <b>ZSH_THEME</b> line.
+> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/search.svg" width="10" height="10"> Just look for the <b>ZSH_THEME</b> line.
 
 Now you know your theme you can edit your theme code to customize the prompt line, the installed theme list can be found here `~/.oh-my-zsh/themes/`
 If you type `ls` you will list all themes installed on Zsh.
