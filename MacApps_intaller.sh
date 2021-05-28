@@ -4,7 +4,7 @@
 ## Run command bellow will install Homebre on your Mac and all listed apps bellow
 ##
 ## To run the installer directly from Github
-## sudo curl -fsSL https://raw.githubusercontent.com/tadeubanzato/SetMyPi/master/basicpack.sh | bash
+## sudo curl -fsSL https://raw.githubusercontent.com/tadeubanzato/PersonalMacPrompt/main/MacApps_intaller.sh | bash
 ##
 ## Homebrew Relevant Commands
 ## brew list > Will list all instlled packages
