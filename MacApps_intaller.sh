@@ -38,6 +38,7 @@ brew install --cask processing
 brew install --cask sqlpro-for-sqlite
 brew install --cask vnc-viewer
 brew install --cask postman
+brew install --cask db-browser-for-sqlite
 
 # System Tools
 printf "\n\n ${GREEN}--------> INSTALLING SYSTEM APPS ${NC}\n\n"
