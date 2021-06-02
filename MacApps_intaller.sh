@@ -63,6 +63,7 @@ printf "\n\n ${GREEN}--------> INSTALLING MUSIC AND VIDEO APPS ${NC}\n\n"
 brew install --cask spotify
 brew install --cask vlc
 
-# Creative Tools
+# Creative and Dsign Tools
 printf "\n\n ${GREEN}--------> INSTALLING CREATIVE TOOLS ${NC}\n\n"
 brew install --cask adobe-creative-cloud
+brew install --cask figma
