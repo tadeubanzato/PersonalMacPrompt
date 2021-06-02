@@ -1,9 +1,12 @@
 #!/bin/bash
 
-## INSTALL INSTRUCTIONS
-## Run command bellow will install Homebre on your Mac and all listed apps bellow
+## This script helps me install all applications that I use on daily basis.
+## Feel free to fork, copy and socialize this script.
 ##
-## To run the installer directly from Github
+## INSTALL INSTRUCTIONS
+## By runing the command bellow will install Homebrew and all listed apps on your system but if you want to install a different application just verify on the list add/remove a new application as needed
+##
+## To run the installer directly from Github without needing to download or create a new shell script on your machine
 ## curl -fsSL https://raw.githubusercontent.com/tadeubanzato/PersonalMacPrompt/main/MacApps_intaller.sh | bash
 ##
 ## Homebrew Relevant Commands
